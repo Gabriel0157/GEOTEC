@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  font-family: Inter, Bold;
+}
+
+p {
+  color: #fff;
+  font-size: large;
+  font-weight: 2rem;
+}
+
+body {
+  background-color: #e6f7ff;
+  background-image: linear-gradient(to right, #8bb0c1, #738AFE, #6b619e);
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+fieldset {
+  color: #000000;
+  border-radius: 5px;
+  border: 1.5px solid #009dff;
+  padding-top: 1.25rem;
+}
+
+.container {
+  background-image: linear-gradient(to right, #22389b, #0c1745);
+  border-radius: 1rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  max-width: 600px;
+  margin: 45px auto;
+  margin-top: 2.5%;
+  display: flex;
+  flex-direction: column;
+  border: 3px solid #009dff;
+}
+
+header {
+  background-image: linear-gradient(to right, #2e5ff5, #0058cc);
+  color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 28px;
+  margin: 0;
+  color: #fff;
+}
+
+main {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.question-container,
+.result-container {
+  display: none;
+}
+
+
+.btn-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.btn {
+  background-color: #0058cc;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-size: 10pt;
+}
+
+.btn:hover {
+  background-color: #003cb3;
+  transform: scale(1.01);
+  transition: .6s;
+}
+
+#score {
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+#score-value {
+  color: #0077b6;
+}
+
+.result-container {
+  background-color: #85a9ef;
+  border-radius: 50x;
+  padding: 20px;
+}
+
+#play-again-button {
+  margin-top: 5px;
+  padding: 10px;
+  border: 0;
+  border-radius: 40px;
+  background-color: #0058cc;
+  color: #fff;
+  font-size: medium;
+  font-weight: bold;
+}
+
+#play-again-button a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#play-again-button:hover {
+  background-color: #003cb3;
+  transform: scale(1.01);
+  transition: .6s;
+}
+
+#play-button {
+  margin-top: 5px;
+  border-radius: 40px;
+  border: 3px solid var(--strong-blue);
+  font-size: medium;
+  font-weight: bold;
+}
+
+.voltar {
+  width: 10rem;
+  margin-left: 1.5rem;
+  margin-top: 0.5rem;
+}
+
+.voltar:hover {
+  transform: scale(1.10);
+  transition: 0.5s;
+}

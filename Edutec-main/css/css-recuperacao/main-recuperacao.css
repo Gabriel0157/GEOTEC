@@ -1,0 +1,22 @@
+.logo-login {
+  width: 7.5rem;
+  margin-bottom: 1.5rem;
+  margin-left: 2.25rem;
+}
+
+.trocar-senha {
+  margin-bottom: 1.33rem;
+  border: none;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+  color: var(--white);
+  border-radius: 1rem;
+  padding: 0.5rem;
+  padding-left: 2.7rem;
+  padding-right: 2.7rem;
+  background-color: var(--normal-blue);
+}
+
+.trocar-senha:hover {
+  background: #253aa7;
+}

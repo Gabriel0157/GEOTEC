@@ -1,0 +1,28 @@
+.estudar {
+  margin-right: 2rem;
+  padding: 0.5rem;
+  padding-left: 2rem;
+  padding-right:2rem;
+  border-radius: 1rem;
+  background-color: var(--dark-blue);
+  background: linear-gradient(to right, var(--dark-blue), #22338c);
+}
+
+.jogar {
+  margin-right: 2rem;
+  padding: 0.5rem;
+  padding-left: 2rem;
+  padding-right:2rem;
+  border-radius: 1rem;
+  background-color: var(--dark-blue);
+  background: linear-gradient(to right, var(--dark-blue), #22338c);
+}
+
+.sobre-nos {
+  padding: 0.5rem;
+  padding-left: 2rem;
+  padding-right:2rem;
+  border-radius: 1rem;
+  background-color: var(--dark-blue);
+  background: linear-gradient(to right, var(--dark-blue), #22338c);
+}
